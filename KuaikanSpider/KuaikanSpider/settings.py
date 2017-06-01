@@ -79,7 +79,8 @@ ITEM_PIPELINES = {
    'KuaikanSpider.pipelines.ImgDownloadPipeline': 100,
 }
 
-IMAGES_STORE = '/home/nightheart/workspace/www/KuaikanSpider/img'
+cwd = os.getcwd()
+IMAGES_STORE = cwd + '/images'
 IMAGES_EXPIRES = 15
 
 # Enable and configure the AutoThrottle extension (disabled by default)
