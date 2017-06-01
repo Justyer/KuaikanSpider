@@ -1,7 +1,5 @@
 # KuaikanSpider
 
-***
-
 ![](https://img.shields.io/badge/python-2.7-blue.svg)
 ![](https://img.shields.io/badge/scrapy-1.2.1-yellowgreen.svg)
 
